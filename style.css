@@ -235,6 +235,33 @@ h2 {
 
 /* ============= Projects ============= */
 .projects__container {
+  gap: 4rem;
+}
+
+.projects__container1 {
+  background-color: green;
+  width: 100%;
+}
+
+.projects__inner1{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__image1{
+  width: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects__info1{
+  background-color: red;
+  width: 50%;
+  display: grid;
   gap: 2rem;
 }
 
@@ -249,6 +276,10 @@ h2 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+}
+
+.projects__container{
+  background-color: yellow;
 }
 
 .projects__inner {
@@ -325,6 +356,8 @@ h2 {
 .projects__description {
   margin-top: 30px;
 }
+
+
 
 /* ============= About ============= */
 
