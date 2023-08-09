@@ -632,7 +632,7 @@ h2 {
   transform: translateX(-50px);
   /* Con el translateY lo que hago es que cuando haga scroll down es que va a ir apareciendo en el eje X,
   como una animacion de transicion en power point */
-  transition: opacity 0.5s, transform 5s;
+  transition: opacity 0.5s, transform 2s;
 }
 
 
