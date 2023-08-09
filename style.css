@@ -234,6 +234,14 @@ h2 {
 
 
 /* ============= Projects ============= */
+
+#portfolio{
+  height: 83rem;
+  z-index: 100;
+  display: grid;
+  gap: 2rem;
+}
+
 .projects__container {
   gap: 4rem;
 }
@@ -246,6 +254,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 15rem;
 }
 
 .projects__image1{
@@ -267,7 +276,7 @@ h2 {
 .projects__info1{
   width: 50%;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
   place-content: center;
 }
 
@@ -287,6 +296,7 @@ h2 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  height: 90rem;
 }
 
 .projects__container{
@@ -298,12 +308,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 15rem;
 }
 
 
 .projects__image1 img {
-    width: 35rem;
-  height: 25rem;
+  width: 25rem;
+  height: 15rem;
   object-fit: cover;
   border-radius: 55px;
   box-shadow: 6px 11px 13px 0 #0000002e;
@@ -311,8 +322,8 @@ h2 {
 }
 
 .projects__image img {
-  width: 35rem;
-  height: 25rem;
+  width: 25rem;
+  height: 15rem;
   object-fit: cover;
   border-radius: 55px;
   box-shadow: 6px 11px 13px 0 #0000002e;
@@ -322,7 +333,7 @@ h2 {
 .projects__info {
   width: 50%;
   display: grid;
-  gap: 2rem;
+  gap: 1rem;
 
 }
 
@@ -331,12 +342,14 @@ h2 {
   flex-wrap: wrap;
   gap: 1rem;
   place-content: center;
+   height: 3rem;
 }
 
 .projects__buttons1 {
   display: flex;
   gap: 1rem;
   place-content: center;
+  height: 3rem;
 }
 
 
@@ -352,15 +365,16 @@ h2 {
 .btn {
   background-color: var(--color-principal);
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 20.5rem;
   padding: 1rem;
   color: #fff;
   cursor: pointer;
+  height: 3rem;
+  width: 11rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 1.5rem 4rem;
   border: none;
   outline: none;
   border-radius: 5px;
@@ -375,11 +389,11 @@ h2 {
 }
 
 .projects__description {
-  margin-top: 30px;
+  width: 44rem;
 }
 
 .projects__description1 {
-  margin-top: 30px;
+  width: 44rem;
 }
 
 
@@ -482,7 +496,7 @@ h2 {
     }
     
     .contact__form {
-      width: 100%;
+      width: 50%;
       padding: 3rem 1.5rem 2rem;
       gap: 20rem;
       border-radius: 5px;
@@ -604,7 +618,9 @@ h2 {
 
 /* Media Queries */
 
+@media screen and (max-width: 320px) {
 
+}
 
 
 
@@ -613,14 +629,16 @@ h2 {
 
 .hidden {
   opacity: 0;
-  transform: translateX(-100px);
+  transform: translateX(-50px);
   /* Con el translateY lo que hago es que cuando haga scroll down es que va a ir apareciendo en el eje X,
   como una animacion de transicion en power point */
-  transition: opacity 0.5s, transform 1s;
+  transition: opacity 0.5s, transform 5s;
 }
 
+
+
 .show {
-  opacity: 1;
+  opacity: 3;
   transform: translateX(0px);
 }
 
@@ -629,7 +647,7 @@ h2 {
       width: 0;
   }
   to {
-      width: 80%;
+      width: 90%;
   }
 }
 
@@ -638,6 +656,6 @@ h2 {
       width: 0;
   }
   to {
-      width: 70%;
+      width: 170%;
   }
 }
