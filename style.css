@@ -249,7 +249,7 @@ h2 {
 }
 
 .projects__image1{
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,10 +268,10 @@ h2 {
   width: 50%;
   display: grid;
   gap: 2rem;
+  place-content: center;
 }
 
 .projects__name1 {
-    margin-left: -50px;
     font-size: 3rem;
 }
 
@@ -333,9 +333,14 @@ h2 {
   place-content: center;
 }
 
+.projects__buttons1 {
+  display: flex;
+  gap: 1rem;
+  place-content: center;
+}
+
 
 .projects__name {
-  margin-left: -50px;
   font-size: 3rem;
 }
 
@@ -370,6 +375,10 @@ h2 {
 }
 
 .projects__description {
+  margin-top: 30px;
+}
+
+.projects__description1 {
   margin-top: 30px;
 }
 
